@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/*ベース
+-----------------------*/
+body{
+    color: #A6ADB4;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+}
+
+h2{
+   color: #202124; 
+   font-size: 24px;
+
+/*レイアウト
+-----------------------*/
+.l-inner{
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.l-section{
+    padding: 60px 0;
+}
+
+.l-col6{
+    width: 47.5%;
+}
+
+.l-col3{
+    width: 30%;
+}
+
+/* フレックスボックス */
+.l-flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.l-justify-between{
+    justify-content: space-between;
+}
+
+/*モジュール
+-----------------------*/
+/*gnav*/
+.gnav > li{
+    margin-left: 20px;
+}
+
+/*news*/
+.news-category{
+    color: #FA6980;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.news-title{
+    color: #202124;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*card*/
+
+.card-title{
+    color: #202124;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*btn*/
+
+/*date*/
+.time{
+    margin-left: 10px;
+}
